@@ -1,1 +1,60 @@
-/* Write your CSS here */
+.bg-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: fit-content;
+  height: 20%;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.income-container {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: fit-content;
+  height: 30%;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.expense-container {
+  background-color: #ede9fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: fit-content;
+  height: 30%;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.image-container {
+  height: auto;
+  width: fit-content;
+}
+
+.image-element {
+  height: auto;
+  width: 150px;
+}
+
+.content-container {
+  margin-left: 16px;
+}
+
+.content-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #7e858e;
+}
